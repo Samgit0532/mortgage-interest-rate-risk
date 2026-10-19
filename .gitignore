@@ -1,0 +1,71 @@
+
+# =========================
+# Variables d'environnement
+# =========================
+.env
+.env.*
+!.env.example
+*.env
+
+# =========================
+# IDE / Editeurs
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+
+# =========================
+# Resultats / Outputs
+# =========================
+data/
+logs/
+*.log
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# =========================
+# Fichiers systeme
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Fichiers temporaires
+# =========================
+*.tmp
+*.temp
+*.bak
+*.cache
+*~
+.cache/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+
+# SQLite temporary files
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
